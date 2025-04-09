@@ -1,0 +1,116 @@
+print("hello world")
+print("Belajar Python di Bisnis Digital")
+print("Erlina Nur Arifani")
+print("104062400075") 
+#tipe data Boolean
+print(True)
+#tipe data String
+print("Ayo belajar Python")
+print("Belajar Python Sangat Mudah")
+#tipe data integer
+print(20)
+#tipe data Float
+print(3.14)
+#tipe data Hexadecimal
+print(0x9a)
+#tipe data Complex
+print(5j)
+#tipe data List
+print({1,2,3,4,5})
+print({"satu","dua","tiga"})
+#tipe data Truple
+print((1,2,3,4,5))
+print("satu","dua","tiga")
+#tipe data Dictionary
+print({"nama":"Budi","umur":20})
+#tipe data Dictionary dimasukan ke dalam variabel biodata
+biodata = {"nama":"Andi",'umur':21} #proses inisialisasi variabel biodata
+print (biodata) #proses pencetakan variabel biodata yang berisi tipe data Dictionary
+print (type (biodata)) #fungsi untuk mengecek jenis tipe data.
+#akan tampil <class 'dict'> yang berarti dict adalah tipe data dictionary
+#proses memasukan data ke dalam variabel
+nama ="John Doe"
+print (nama)
+#nilai dan tipe data dalam variabel dapat diubah
+umur = 20                   #nilai awal
+print (umur)                #mengecek nilai umur
+type (umur)                 #mengecek tipe data umur
+umur = "dua puluh satu"     #nilai setelah diubah
+print (umur)                #mencetak nilai umur
+type (umur)                 #mencetak tipe data umur
+namaDepan = "Budi"
+namaBelakang = "Susanto"
+nama = namaDepan + "" + namaBelakang
+umur = 22
+hobi = "Berenang"
+print ("Biodata\n", nama, "\n", umur, "\n", hobi)
+#contoh variabel lainya
+inivariabel = "Halo"
+ini_juga_variabel = "Hai"
+inivariabel222 = "Bye"
+panjang = 10
+lebar = 5
+luas = panjang * lebar
+print (luas)
+rusuk = 10.5
+luas_permukaan = 6 * rusuk * rusuk
+print (luas_permukaan)
+rusuk = 10.5
+volume = rusuk*rusuk*rusuk
+print (volume)
+#OPERATOR ARITMATIKA
+#Penjumlahan
+print (13 + 2)
+apel = 7
+jeruk = 9
+buah = apel + jeruk
+print (buah)
+#Pengukuran 
+hutang = 10000
+bayar = 5000
+sisaHutang = hutang - bayar
+print ("sisa hutang Anda adalah", sisaHutang)
+#Perkalian 
+panjang = 15
+lebar = 8
+luas = panjang *  lebar
+print (luas)
+#Pembagian 
+kue = 16
+anak = 4
+kuePerAnak = kue / anak
+print ("setiap anak akan mendapatkan bagian kue sebanyak", kuePerAnak)
+#Sisa Bagi / Modulus
+bilangan1 = 14
+bilangan2 = 5
+hasil = bilangan1 % bilangan2
+print ("Sisa bagi dari bilangan", bilangan1,"dan", bilangan2, "adalah", hasil)
+#Pangkat
+bilangan3 = 8
+bilangan4 = 2
+hasilPangkat = bilangan3 ** bilangan4
+print (hasilPangkat)
+#Pembagian Bulat
+print (10//3)
+#10 dibagi 3 adalah 3.3333. Karena dibulatkan maka akan menghasilkan nilai 3
+#pengaturan nilai
+a = 8
+b = 3
+# Operator Penjumlahan 
+c = a + b
+print ("Hasil",a,"+",b,"=",c)
+# Operator Pengurangan
+c = a - b
+print ("Hasil",a,"-",b,"=",c)
+# Operator Perkalian
+c = a * b
+print ("Hasil",a,"x",b,"=",c)
+# Operator Pembagian
+c = a / b
+print ("Hasil",a,"/",b,"=",c)
+# Operator Sisa Bagi
+c = a % b
+print ("Hasil",a,"%",b,"=",c)
+# Operator Pangkat
+c = a ** b
+print ("Hasil",a,"",b,"=",c)
